@@ -18,4 +18,12 @@ else {
 }
 
 // Iteration 3: Loops
-console.log (hacker1.toUpperCase())
+
+let separada;
+
+for (let i = 0; i < array.length; i++){
+separada = hacker1.charAt(i) + " ";
+}
+console.log (separada.toUpperCase());
+
+
